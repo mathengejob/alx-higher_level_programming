@@ -7,7 +7,7 @@ if __name__ == "__main__":
         i = 1
         print("{:d} arguments:".format(args_count))
         for i in range(args_count):
-            print("{:d}: {:s}".format(i, argv[i]))
+            print("{:d}: {:s}".format(i + 1, argv[i]))
     elif args_count == 1:
         print("{:d} argument:".format(args_count))
         print("{:d}: {:s}".format(1, argv[0]))
