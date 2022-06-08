@@ -6,6 +6,5 @@ if __name__ == "__main__":
         total = 0
         for i in argv:
             y = int(i, base=10)
-            print(y)
             total = total + y
-        print(total)
+        print("{:d}".format(total))
