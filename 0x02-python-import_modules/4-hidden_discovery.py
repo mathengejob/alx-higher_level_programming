@@ -4,4 +4,4 @@ if __name__ == "__main__":
     fetch_dir = dir(hidden_4)
     for i in fetch_dir:
         if i[:2] != "_":
-            print(i)
+            print("{:s}".format(i))
